@@ -1,0 +1,11 @@
+readme.md
+python/.gitignore
+python/app.py
+python/CODE_OF_CONDUCT.md
+python/LICENSE
+python/LICENSE-CODE
+python/README.md
+python/requirements.txt
+python/SECURITY.md
+python/data/products.json
+python/templates/index.html
