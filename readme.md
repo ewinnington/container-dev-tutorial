@@ -1,5 +1,7 @@
 # Tutorial 
 
+This is a repository containing a collection of the devcontainers used for the polyglot poject. Each subfolder can be opened in visual studio code as a developer container. Here, no code is committed, only the container configuration itself.
+
 Following <https://docs.microsoft.com/en-gb/learn/modules/use-docker-container-dev-env-vs-code/1-introduction>
 
 The devcontainer images are available at https://hub.docker.com/_/microsoft-vscode-devcontainers 
@@ -35,6 +37,8 @@ java -cp target/my-hw-1.0-SNAPSHOT.jar com.cloudplush.hw.App
 
 ## Swift
 
+The devcontainer was changed from the default due to an error message in the api-get update command. 
+
 swift package init --type executable
 
 ## Typescript 
@@ -51,3 +55,6 @@ node index.js
 
 ## Cpp
 
+The devcontainer was changed from the default due to an error message in the api-get update command. 
+
+The CPP development container is configured to use vcpk for the dependencies.
