@@ -21,7 +21,6 @@ dotnet new console
 cargo init
 cargo run
 
-
 ## Go
 
 go run
@@ -33,3 +32,22 @@ mvn archetype:generate -DgroupId=com.cloudplush.hw -DartifactId=my-hw -Darchetyp
 cd my-hw mvn package
 
 java -cp target/my-hw-1.0-SNAPSHOT.jar com.cloudplush.hw.App
+
+## Swift
+
+swift package init --type executable
+
+## Typescript 
+
+npm init
+npm install -D typescript@3.3.3
+npm install -D tslint@5.12.1
+
+tsc --init 
+
+touch index.ts
+tsc
+node index.js 
+
+## Cpp
+
